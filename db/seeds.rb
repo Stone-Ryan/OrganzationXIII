@@ -7,115 +7,115 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Member.destroy_all
 
-I = Member.create(
-  number: 1,
+xemnas = Member.create(
+  number: 'I',
   name: 'Xemnas',
   title: 'Superior of the In-Between',
   weapon: 'Interdiction',
-  attribute: 'Nothingness',
+  element: 'Nothingness',
   forgotten_name: 'Xehanort',
 )
-II = Member.create(
-  number: 2,
+xigbar = Member.create(
+  number: 'II',
   name: 'Xigbar',
   title: 'The Freeshooter',
   weapon: 'Sharpshooter',
-  attribute: 'Space',
+  element: 'Space',
   forgotten_name: 'Braig',
 )
-III = Member.create(
-  number: 3,
+xaldin = Member.create(
+  number: 'III',
   name: 'Xaldin',
   title: 'The Whirlwind Lancer',
   weapon: 'Lindworm',
-  attribute: 'Wind',
+  element: 'Wind',
   forgotten_name: 'Dilan',
 )
-VI = Member.create(
-  number: 4,
+vexen = Member.create(
+  number: 'IV',
   name: 'Vexen',
   title: 'The Chilly Academic',
   weapon: 'Frozen Pride',
-  attribute: 'Ice',
+  element: 'Ice',
   forgotten_name: 'Even',
 )
-V = Member.create(
-  number: 5,
+lexaeus = Member.create(
+  number: 'V',
   name: 'Lexaeus',
   title: 'The Silent Hero',
   weapon: 'Skysplitter',
-  attribute: 'Earth',
+  element: 'Earth',
   forgotten_name: 'Aeleus',
 )
-VI = Member.create(
-  number: 6,
+zexion = Member.create(
+  number: 'VI',
   name: 'Zexion',
   title: 'The Cloaked Schemer',
   weapon: 'Book of Retribution',
-  attribute: 'Illusions',
+  element: 'Illusions',
   forgotten_name: 'Ienzo',
 )
-VII = Member.create(
-  number: 7,
+saïx = Member.create(
+  number: 'VII',
   name: 'Saïx',
   title: 'The Luna Divener',
   weapon: 'Lunatic',
-  attribute: 'Moon',
+  element: 'Moon',
   forgotten_name: 'Isa',
 )
-VIII = Member.create(
-  number: 8,
+axel = Member.create(
+  number: 'VIII',
   name: 'Axel',
-  title: 'The Flurry of Dnacing Flames',
+  title: 'The Flurry of Dancing Flames',
   weapon: 'Eternal Flames',
-  attribute: 'Flame',
+  element: 'Flame',
   forgotten_name: 'Lea',
 )
-IX = Member.create(
-  number: 9,
+demyx = Member.create(
+  number: 'IX',
   name: 'Demyx',
   title: 'Melodious Nocturne',
   weapon: 'Arpeggio',
-  attribute: 'Water',
+  element: 'Water',
   forgotten_name: 'Unknown',
 )
-X = Member.create(
-  number: 10,
+luxord = Member.create(
+  number: 'X',
   name: 'Luxord',
   title: 'The Gambler of Fate',
   weapon: 'Fair Game',
-  attribute: 'Time',
+  element: 'Time',
   forgotten_name: 'Unknown',
 )
-XI = Member.create(
-  number: 11,
+marluxia = Member.create(
+  number: 'XI',
   name: 'Marluxia',
   title: 'The Graceful Assassin',
   weapon: 'Graceful Dahila',
-  attribute: 'Flower',
+  element: 'Flower',
   forgotten_name: 'Unknown',
 )
-XII = Member.create(
-  number: 12,
+larxene = Member.create(
+  number: 'XII',
   name: 'Larxene',
   title: 'The Savage Nymph',
   weapon: 'Foudre',
-  attribute: 'Lightning',
+  element: 'Lightning',
   forgotten_name: 'Unknown',
 )
-XIII = Member.create(
-  number: 13,
+roxas = Member.create(
+  number: 'XIII',
   name: 'Roxas',
   title: 'The Key of Destiny',
   weapon: 'Keyblade',
-  attribute: 'Light',
+  element: 'Light',
   forgotten_name: 'Sora',
 )
-XIV = Member.create(
-  number: 14,
+xion = Member.create(
+  number: 'XIV',
   name: 'Xion',
   title: 'None',
   weapon: 'Keyblade',
-  attribute: 'Light',
+  element: 'Light',
   forgotten_name: 'No.i',
 )
